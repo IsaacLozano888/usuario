@@ -1,0 +1,16 @@
+{
+  "name": "CID Farmacy",
+  "short_name": "CID Farm",
+  "description": "Farmácia Digital",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#1565C0",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,[base64 icon]",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
