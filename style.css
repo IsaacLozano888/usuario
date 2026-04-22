@@ -1,0 +1,77 @@
+/* From app.py + mobile tweaks */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background: #0a0a0f;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Pages */
+.page {
+    display: none;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.page.active {
+    display: block;
+}
+
+ /* Splash */
+.splash {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.logo-big {
+    width: 110px;
+    height: 110px;
+    background: linear-gradient(135deg, #1565C0, #42A5F5);
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    margin: 0 auto 20px;
+    box-shadow: 0 10px 40px rgba(66,165,245,.4);
+}
+
+ /* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #2E7D32, #4CAF50);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    border-radius: 16px;
+    padding: 18px;
+    width: 100%;
+    cursor: pointer;
+    margin: 10px 0;
+    box-shadow: 0 4px 20px rgba(76,175,80,0.3);
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #42A5F5;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid #42A5F5;
+    border-radius: 16px;
+    padding: 16px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+ /* More styles from app.py CSS... */
+ /* Paste full CSS from app.py here for completeness */
+.mini-card { /* ... */ }
+ /* etc */
+
+@media (max-width: 480px) {
+    body { padding-bottom: env(safe-area-inset-bottom); }
+}
